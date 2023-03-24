@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920612E329CD694D00DB61F0 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920612E229CD694D00DB61F0 /* AlbumsViewController.swift */; };
+		920612E729CD7B0D00DB61F0 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */; };
 		92AF6EBF29CC876C00430BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EBE29CC876C00430BE8 /* AppDelegate.swift */; };
 		92AF6EC129CC876C00430BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */; };
 		92AF6EC329CC876C00430BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EC229CC876C00430BE8 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920612E229CD694D00DB61F0 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumsViewController.swift; path = "../../../../../aryan/Desktop/March Tasks/TabBarAppTask/TabBarAppTask/AlbumsViewController.swift"; sourceTree = "<group>"; };
+		920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumTableViewCell.swift; path = "../../../../../aryan/Desktop/March Tasks/TabBarAppTask/TabBarAppTask/AlbumTableViewCell.swift"; sourceTree = "<group>"; };
 		92AF6EBB29CC876C00430BE8 /* TabBarAppTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAppTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AF6EBE29CC876C00430BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */,
 				92AF6EC229CC876C00430BE8 /* ViewController.swift */,
 				92AF6EC429CC876C00430BE8 /* Main.storyboard */,
+				920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */,
 				92AF6ECA29CC876D00430BE8 /* Assets.xcassets */,
+				920612E229CD694D00DB61F0 /* AlbumsViewController.swift */,
 				92AF6ECC29CC876D00430BE8 /* LaunchScreen.storyboard */,
 				92AF6ECF29CC876D00430BE8 /* Info.plist */,
 				92AF6EC729CC876C00430BE8 /* TabBarAppTask.xcdatamodeld */,
@@ -145,6 +151,8 @@
 				92AF6EBF29CC876C00430BE8 /* AppDelegate.swift in Sources */,
 				92AF6EC929CC876C00430BE8 /* TabBarAppTask.xcdatamodeld in Sources */,
 				92AF6EC129CC876C00430BE8 /* SceneDelegate.swift in Sources */,
+				920612E329CD694D00DB61F0 /* AlbumsViewController.swift in Sources */,
+				920612E729CD7B0D00DB61F0 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
