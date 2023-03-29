@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Department" representedClassName="Department" syncable="YES" codeGenerationType="class">
+        <attribute name="depName" optional="YES" attributeType="String"/>
+        <relationship name="departmentR" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="employeesR" inverseEntity="Employee"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="eName" optional="YES" attributeType="String"/>
+        <relationship name="employeesR" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="departmentR" inverseEntity="Department"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-58.39190673828125" positionY="-17.40191650390625" width="128" height="73"/>
+        <element name="Employee" positionX="139.2935180664062" positionY="-8.232574462890625" width="128" height="73"/>
+    </elements>
 </model>
