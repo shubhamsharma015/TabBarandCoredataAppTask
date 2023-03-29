@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		920612E329CD694D00DB61F0 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920612E229CD694D00DB61F0 /* AlbumsViewController.swift */; };
 		920612E729CD7B0D00DB61F0 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */; };
+		920F4AA829D1B59400856261 /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F4AA729D1B59400856261 /* DepartmentTableViewCell.swift */; };
+		9239358229D2B795005C6FEE /* EmployeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239358129D2B795005C6FEE /* EmployeeTableViewController.swift */; };
+		9239358429D2B7D8005C6FEE /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239358329D2B7D8005C6FEE /* AddEmployeeViewController.swift */; };
+		924040B429D176DC00D078DA /* DepartmentCatagaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924040B329D176DC00D078DA /* DepartmentCatagaryViewController.swift */; };
+		924040B629D179C900D078DA /* AddDepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924040B529D179C900D078DA /* AddDepartmentViewController.swift */; };
+		9268441B29D30B26000FB12B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9268441A29D30B26000FB12B /* SDWebImage */; };
+		9268441D29D30B26000FB12B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9268441C29D30B26000FB12B /* SDWebImageMapKit */; };
 		92AF6EBF29CC876C00430BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EBE29CC876C00430BE8 /* AppDelegate.swift */; };
 		92AF6EC129CC876C00430BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */; };
 		92AF6EC329CC876C00430BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF6EC229CC876C00430BE8 /* ViewController.swift */; };
@@ -19,8 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		920612E229CD694D00DB61F0 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumsViewController.swift; path = "../../../../../aryan/Desktop/March Tasks/TabBarAppTask/TabBarAppTask/AlbumsViewController.swift"; sourceTree = "<group>"; };
-		920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumTableViewCell.swift; path = "../../../../../aryan/Desktop/March Tasks/TabBarAppTask/TabBarAppTask/AlbumTableViewCell.swift"; sourceTree = "<group>"; };
+		920612E229CD694D00DB61F0 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		920F4AA729D1B59400856261 /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
+		9239358129D2B795005C6FEE /* EmployeeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewController.swift; sourceTree = "<group>"; };
+		9239358329D2B7D8005C6FEE /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		924040B329D176DC00D078DA /* DepartmentCatagaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentCatagaryViewController.swift; sourceTree = "<group>"; };
+		924040B529D179C900D078DA /* AddDepartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDepartmentViewController.swift; sourceTree = "<group>"; };
 		92AF6EBB29CC876C00430BE8 /* TabBarAppTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAppTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AF6EBE29CC876C00430BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,12 +49,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9268441D29D30B26000FB12B /* SDWebImageMapKit in Frameworks */,
+				9268441B29D30B26000FB12B /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9239358529D2B7ED005C6FEE /* EmployeeController */ = {
+			isa = PBXGroup;
+			children = (
+				9239358129D2B795005C6FEE /* EmployeeTableViewController.swift */,
+				9239358329D2B7D8005C6FEE /* AddEmployeeViewController.swift */,
+			);
+			path = EmployeeController;
+			sourceTree = "<group>";
+		};
+		924040AE29D1667A00D078DA /* Album Controller */ = {
+			isa = PBXGroup;
+			children = (
+				920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */,
+				920612E229CD694D00DB61F0 /* AlbumsViewController.swift */,
+			);
+			path = "Album Controller";
+			sourceTree = "<group>";
+		};
+		924040B029D172AB00D078DA /* Department Controller */ = {
+			isa = PBXGroup;
+			children = (
+				924040B329D176DC00D078DA /* DepartmentCatagaryViewController.swift */,
+				924040B529D179C900D078DA /* AddDepartmentViewController.swift */,
+				920F4AA729D1B59400856261 /* DepartmentTableViewCell.swift */,
+			);
+			path = "Department Controller";
+			sourceTree = "<group>";
+		};
 		92AF6EB229CC876C00430BE8 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +108,10 @@
 				92AF6EC029CC876C00430BE8 /* SceneDelegate.swift */,
 				92AF6EC229CC876C00430BE8 /* ViewController.swift */,
 				92AF6EC429CC876C00430BE8 /* Main.storyboard */,
-				920612E629CD7B0D00DB61F0 /* AlbumTableViewCell.swift */,
 				92AF6ECA29CC876D00430BE8 /* Assets.xcassets */,
-				920612E229CD694D00DB61F0 /* AlbumsViewController.swift */,
+				924040B029D172AB00D078DA /* Department Controller */,
+				924040AE29D1667A00D078DA /* Album Controller */,
+				9239358529D2B7ED005C6FEE /* EmployeeController */,
 				92AF6ECC29CC876D00430BE8 /* LaunchScreen.storyboard */,
 				92AF6ECF29CC876D00430BE8 /* Info.plist */,
 				92AF6EC729CC876C00430BE8 /* TabBarAppTask.xcdatamodeld */,
@@ -92,6 +135,10 @@
 			dependencies = (
 			);
 			name = TabBarAppTask;
+			packageProductDependencies = (
+				9268441A29D30B26000FB12B /* SDWebImage */,
+				9268441C29D30B26000FB12B /* SDWebImageMapKit */,
+			);
 			productName = TabBarAppTask;
 			productReference = 92AF6EBB29CC876C00430BE8 /* TabBarAppTask.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 92AF6EB229CC876C00430BE8;
+			packageReferences = (
+				9268441929D30B26000FB12B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 92AF6EBC29CC876C00430BE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,10 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924040B629D179C900D078DA /* AddDepartmentViewController.swift in Sources */,
 				92AF6EC329CC876C00430BE8 /* ViewController.swift in Sources */,
+				924040B429D176DC00D078DA /* DepartmentCatagaryViewController.swift in Sources */,
+				9239358229D2B795005C6FEE /* EmployeeTableViewController.swift in Sources */,
+				9239358429D2B7D8005C6FEE /* AddEmployeeViewController.swift in Sources */,
 				92AF6EBF29CC876C00430BE8 /* AppDelegate.swift in Sources */,
 				92AF6EC929CC876C00430BE8 /* TabBarAppTask.xcdatamodeld in Sources */,
 				92AF6EC129CC876C00430BE8 /* SceneDelegate.swift in Sources */,
+				920F4AA829D1B59400856261 /* DepartmentTableViewCell.swift in Sources */,
 				920612E329CD694D00DB61F0 /* AlbumsViewController.swift in Sources */,
 				920612E729CD7B0D00DB61F0 /* AlbumTableViewCell.swift in Sources */,
 			);
@@ -368,6 +423,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9268441929D30B26000FB12B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9268441A29D30B26000FB12B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9268441929D30B26000FB12B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9268441C29D30B26000FB12B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9268441929D30B26000FB12B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		92AF6EC729CC876C00430BE8 /* TabBarAppTask.xcdatamodeld */ = {
